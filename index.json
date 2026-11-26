@@ -19,11 +19,7 @@
         {
           "version": "1.2.2",
           "publishTimestamp": 1795235848,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/zzy-12345678/dsh-file-convert.git",
-            "commit": "608003a14da6b74328668f633e5c9edcdb46a602"
-          }
+          "source": { "type": "npm" }
         }
       ]
     },
@@ -40,11 +36,7 @@
         {
           "version": "0.1.2",
           "publishTimestamp": 1786856915,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/ZhijiangTang/dsh-fetch-file.git",
-            "commit": "36b42da92e03c02b012419f22afbc84d982aa469"
-          }
+          "source": { "type": "npm" }
         }
       ]
     },
@@ -61,11 +53,7 @@
         {
           "version": "0.1.1",
           "publishTimestamp": 1786856922,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/ZhijiangTang/dsh-http.git",
-            "commit": "66a159064837a81a84cebbe7e986df7dbb260af7"
-          }
+          "source": { "type": "npm" }
         }
       ]
     },
@@ -82,11 +70,7 @@
         {
           "version": "0.1.0",
           "publishTimestamp": 1786856924,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/ZhijiangTang/dsh-jwt.git",
-            "commit": "1bfd7c75e2b7902533e370d6ff634b92d82988e7"
-          }
+          "source": { "type": "npm" }
         }
       ]
     }
