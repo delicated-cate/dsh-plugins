@@ -7,11 +7,95 @@
   },
   "plugins": [
     {
-      "name": "@liwei/dsh-hello-plugin",
-      "title": { "en": "Hello Plugin", "zh": "示例插件" },
+      "name": "dsh-file-convert",
+      "title": { "en": "File Convert", "zh": "格式转换" },
       "description": {
-        "en": "Example bundle hosted in a Git repository.",
-        "zh": "托管在 Git 仓库里的示例组合包。"
+        "en": "Local-first format conversion: images, PDF (with OCR), data, audio/video and office documents; 7 tools, no API key.",
+        "zh": "本地优先的格式转换：图片、PDF（含 OCR）、数据、音视频与办公文档共 26 种转换；7 个工具，全本地执行，无需 API Key。"
+      },
+      "author": "zzy-12345678",
+      "homepage": "https://github.com/zzy-12345678/dsh-file-convert",
+      "versions": [
+        {
+          "version": "1.2.2",
+          "publishTimestamp": 1795235848,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/zzy-12345678/dsh-file-convert.git",
+            "commit": "608003a14da6b74328668f633e5c9edcdb46a602"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-fetch-file",
+      "title": { "en": "Fetch File", "zh": "下载到工作区" },
+      "description": {
+        "en": "Download a URL into the workspace: path fence, streaming, 200MB cap.",
+        "zh": "把 URL 下载为工作区文件：路径围栏、流式、200MB 上限。"
+      },
+      "author": "ZhijiangTang",
+      "homepage": "https://github.com/ZhijiangTang/dsh-fetch-file",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1786856915,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ZhijiangTang/dsh-fetch-file.git",
+            "commit": "36b42da92e03c02b012419f22afbc84d982aa469"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-http",
+      "title": { "en": "HTTP Request", "zh": "HTTP 请求" },
+      "description": {
+        "en": "Structured HTTP requests: status code, duration and size; basic/bearer auth.",
+        "zh": "结构化 HTTP 请求工具：返回状态码、耗时与大小，支持 basic/bearer 认证。"
+      },
+      "author": "ZhijiangTang",
+      "homepage": "https://github.com/ZhijiangTang/dsh-http",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1786856922,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ZhijiangTang/dsh-http.git",
+            "commit": "66a159064837a81a84cebbe7e986df7dbb260af7"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-jwt",
+      "title": { "en": "JWT Decode", "zh": "JWT 解码" },
+      "description": {
+        "en": "Decode JWTs for debugging without verifying the signature, and report expiry.",
+        "zh": "调试用 JWT 解码（不验签），并判断是否过期。"
+      },
+      "author": "ZhijiangTang",
+      "homepage": "https://github.com/ZhijiangTang/dsh-jwt",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1786856924,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ZhijiangTang/dsh-jwt.git",
+            "commit": "1bfd7c75e2b7902533e370d6ff634b92d82988e7"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@liwei/dsh-hello-plugin",
+      "title": { "en": "Hello Plugin (template)", "zh": "示例插件（模板）" },
+      "description": {
+        "en": "Template entry kept for reference. Its repository and commit are placeholders, so installing it fails.",
+        "zh": "保留作参考的模板条目。仓库与 commit 均为占位值，安装会失败。"
       },
       "author": "Liwei",
       "versions": [
@@ -23,23 +107,7 @@
             "url": "https://github.com/delicated-cate/dsh-hello-plugin.git",
             "commit": "0123456789abcdef0123456789abcdef01234567",
             "path": "packages/hello"
-          },
-          "engines": { "dsh": "^0.2.1-rc.3" }
-        }
-      ]
-    },
-    {
-      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
-      "title": { "en": "Ralph Loop", "zh": "Ralph 循环" },
-      "description": {
-        "en": "Run explicitly requested repeated work with fresh agents.",
-        "zh": "用全新的子智能体执行用户明确要求的循环工作。"
-      },
-      "versions": [
-        {
-          "version": "0.2.1-rc.3",
-          "publishTimestamp": 1764115200,
-          "source": { "type": "npm" }
+          }
         }
       ]
     }
