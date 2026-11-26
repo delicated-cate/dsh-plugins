@@ -26,7 +26,7 @@ if (!parseMarketIndex) {
 
 const raw = readFileSync(INDEX, 'utf8')
 // 市场会用真实索引地址解析相对 icon，这里用占位地址即可。
-const indexUrl = process.env.INDEX_URL ?? 'https://raw.githubusercontent.com/YOUR_GH_USER/dsh-plugins/main/index.json'
+const indexUrl = process.env.INDEX_URL ?? 'https://raw.githubusercontent.com/delicated-cate/dsh-plugins/main/index.json'
 
 try {
   const parsed = parseMarketIndex(JSON.parse(raw), indexUrl)

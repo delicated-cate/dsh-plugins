@@ -20,7 +20,7 @@
           "publishTimestamp": 1764115200,
           "source": {
             "type": "git",
-            "url": "https://github.com/YOUR_GH_USER/dsh-hello-plugin.git",
+            "url": "https://github.com/delicated-cate/dsh-hello-plugin.git",
             "commit": "0123456789abcdef0123456789abcdef01234567",
             "path": "packages/hello"
           },
