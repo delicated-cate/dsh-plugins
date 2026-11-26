@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "title": { "en": "Liwei's DSH Plugins", "zh": "Liwei 的插件源" },
+  "description": {
+    "en": "Self-hosted plugin index served from GitHub.",
+    "zh": "托管在 GitHub 上的自建插件索引。"
+  },
+  "plugins": [
+    {
+      "name": "@liwei/dsh-hello-plugin",
+      "title": { "en": "Hello Plugin", "zh": "示例插件" },
+      "description": {
+        "en": "Example bundle hosted in a Git repository.",
+        "zh": "托管在 Git 仓库里的示例组合包。"
+      },
+      "author": "Liwei",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1764115200,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/YOUR_GH_USER/dsh-hello-plugin.git",
+            "commit": "0123456789abcdef0123456789abcdef01234567",
+            "path": "packages/hello"
+          },
+          "engines": { "dsh": "^0.2.1-rc.3" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": { "en": "Ralph Loop", "zh": "Ralph 循环" },
+      "description": {
+        "en": "Run explicitly requested repeated work with fresh agents.",
+        "zh": "用全新的子智能体执行用户明确要求的循环工作。"
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1764115200,
+          "source": { "type": "npm" }
+        }
+      ]
+    }
+  ]
+}
