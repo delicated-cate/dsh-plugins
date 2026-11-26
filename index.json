@@ -89,27 +89,6 @@
           }
         }
       ]
-    },
-    {
-      "name": "@liwei/dsh-hello-plugin",
-      "title": { "en": "Hello Plugin (template)", "zh": "示例插件（模板）" },
-      "description": {
-        "en": "Template entry kept for reference. Its repository and commit are placeholders, so installing it fails.",
-        "zh": "保留作参考的模板条目。仓库与 commit 均为占位值，安装会失败。"
-      },
-      "author": "Liwei",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "publishTimestamp": 1764115200,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/delicated-cate/dsh-hello-plugin.git",
-            "commit": "0123456789abcdef0123456789abcdef01234567",
-            "path": "packages/hello"
-          }
-        }
-      ]
     }
   ]
 }
